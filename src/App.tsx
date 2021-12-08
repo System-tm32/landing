@@ -1,8 +1,6 @@
 import React from 'react';
 
-interface AppProps {}
-
-function App({}: AppProps) {
+function App() {
   return <div className="App">Hello</div>;
 }
 
