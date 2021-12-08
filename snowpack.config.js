@@ -9,7 +9,12 @@ module.exports = {
     '@snowpack/plugin-dotenv',
     '@snowpack/plugin-typescript',
   ],
-  packageOptions: {},
-  devOptions: {},
-  buildOptions: {},
+  optimize: {
+    bundle: true,
+    minify: true,
+    sourcemap: false,
+  },
+  buildOptions: {
+    out: '_build',
+  },
 };
