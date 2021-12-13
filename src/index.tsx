@@ -13,10 +13,11 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Montserrat';
     font-weight: 400;
+    letter-spacing: 1px;
   }
-  
+
   div, section, button, figure, nav, menu {
     box-sizing: border-box;
     margin: 0;
