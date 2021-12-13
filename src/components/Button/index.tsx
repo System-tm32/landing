@@ -30,7 +30,6 @@ const ScButton = styled.button`
   display: flex;
   justify-content: center;
   font-size: 12px;
-  font-weight: bold;
   border-radius: 24px;
   padding: 15px 45px;
   cursor: pointer;
