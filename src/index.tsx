@@ -5,7 +5,6 @@ import App from './App';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
-    height: 100%;
     overflow-x: hidden !important;
   }
 
