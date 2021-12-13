@@ -1,4 +1,10 @@
 export interface ButtonPropsType {
   type: 'primary' | 'info';
-  content: string;
+  children: string;
+  onClick: () => void;
+}
+
+export interface Itheme {
+  primary: Record<string, string>;
+  info: Record<string, string>;
 }
