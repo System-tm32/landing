@@ -3,12 +3,13 @@ import styled from 'styled-components';
 import { LabelText } from './type';
 
 const Label = ({ children }: LabelText) => {
-  return <H3>{children}</H3>;
+  return <P>{children}</P>;
 };
 
 export { Label };
 
-const H3 = styled.h3`
+const P = styled.p`
   margin-bottom: 37px;
-  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
 `;

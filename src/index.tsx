@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat';
     font-weight: 400;
     letter-spacing: 1px;
+    background: #E5E5E5;
   }
 
   div, section, button, figure, nav, menu {
