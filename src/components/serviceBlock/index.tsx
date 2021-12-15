@@ -36,5 +36,5 @@ const ButtonWrapper = styled.div`
 `;
 
 const Description = styled.div`
-  height: 80px;
+  height: 90px;
 `;
