@@ -1,4 +1,5 @@
 import React from 'react';
+import { Label } from './components/Label';
 import { Paragraph } from './components/Paragraph';
 import { Popup } from './components/Popup';
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Popup onClick={() => {}}>
-        <h3>Погудин Михаил Алексеевич</h3>
+        <Label>Погудин Михаил Алексеевич</Label>
         <Paragraph>
           Закончил Кировский государственный медицинский колледж.
         </Paragraph>
